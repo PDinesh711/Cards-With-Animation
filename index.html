@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation with Carts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <!--  -->
+        <div class="menu">
+            <button onclick="scale()" class="control-btn">Scale</button>
+            <button onclick="skew()" class="control-btn">Skew</button>
+            <button onclick="rotate()" class="control-btn">Rotate</button>
+            <!-- <button onclick="translate()">Translate</button> -->
+            <button onclick="scaleX()" class="control-btn">Scale X</button>
+            <button onclick="skewY()" class="control-btn">Skew X</button>
+            <button onclick="rotateZ()" class="control-btn">Rotate Y</button>
+            <button onclick="refresh()" class="control-btn">Return</button>
+        </div>
+        <br>
+
+        <!--  -->
+
+        <div class="menu">
+            <button onclick="scale1()" class="control-btn">Scale</button>
+            <button onclick="skew1()" class="control-btn">Skew</button>
+            <button onclick="rotate1()" class="control-btn">Rotate</button>
+            <!-- <button onclick="translate()">Translate</button> -->
+            <button onclick="scaleX1()" class="control-btn">Scale Y</button>
+            <button onclick="skewY1()" class="control-btn">Skew Y</button>
+            <button onclick="rotateZ1()" class="control-btn">Rotate z</button>
+            <button onclick="refresh1()" class="control-btn">Return</button>
+        </div>
+        <div class="pops">
+            <div id="pop">
+                <div class="top">
+                    <button id="btn" onclick="closedpop()">X</button>
+                </div> <br> <br>
+                <div class="bottom">
+                    <h3 class="text">Get 15% OFF</h3>
+                    <h5 class="text">on all Beauty Products</h5>
+                    <button id="cartbtn">Add To Cart</button>
+                </div>
+    
+            </div>
+    
+            <!--  -->
+    
+            <div id="pop1">
+                <div class="top">
+                    <button id="btn" onclick="closedpop1()">X</button>
+                </div> <br> <br>
+                <div class="bottom">
+                    <h3 class="text">Get 15% OFF</h3>
+                    <h5 class="text">on all Beauty Products</h5>
+                    <button id="cartbtn">Add To Cart</button>
+                </div>
+    
+            </div>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

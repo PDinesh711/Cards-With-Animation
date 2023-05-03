@@ -1,0 +1,113 @@
+*{
+    padding: 0;margin: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: royalblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+.menu{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.control-btn{
+    width: 70px;
+    height: 5vh;
+    margin-bottom: 30px;
+   
+    background-color: tomato;
+    color: white;
+    border-color: transparent;
+}
+.control-btn:hover{
+    transition: 1s;
+    transform: translateY(-3px);
+    background-color: rgb(216, 64, 37);
+    color: rgb(202, 192, 192);
+}
+
+#pop{
+    width: 440px;
+    height: 500px;
+    background-color: white;
+    border-radius: 16px;
+}
+#pop:hover{
+    transition: 2s;
+    /* transform: translateX(360px); */
+    box-shadow: 0px 0px 50px 1px  saddlebrown;
+}
+
+#pop1{
+    width: 440px;
+    height: 500px;
+    background-color: white;
+    border-radius: 16px;
+}
+#pop1:hover{
+    transition: 2s;
+    /* transform: translateX(-360px); */
+    box-shadow: 0px 0px 50px 1px  saddlebrown;
+}
+.top{
+    width: 100%;
+    height: 50%;
+   background-size: contain;
+   background: url(https://imgv3.fotor.com/images/slider-image/A-clear-image-of-a-woman-wearing-red-sharpened-by-Fotors-image-sharpener.jpg) no-repeat;
+   background-size: 100%;
+   background-position: left;
+
+}
+.pops{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.text{
+    text-align: center;
+    font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: xx-large;
+}
+#btn{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: rgb(230, 222, 222);
+    position: relative;
+    left: 92%;
+    top: 15%;
+    font-size: large;
+}
+#btn:hover{
+    transition: 2s;
+    background-color: rgb(80, 78, 78);
+    color: whitesmoke;
+    transform: scale(150%);
+    /* transform: translateX(150px); */
+    /* overflow: hidden; */
+}
+#cartbtn{
+    width: 100px;
+    height: 7vh;
+    background-color: hotpink;
+    border:3px solid  tomato;
+    position: relative;
+    left: 35%;
+    margin-top: 50px;    
+}
+#cartbtn:hover{
+    transition: 12s;
+    transform: translateX(150px);
+    border: 6px solid rgb(233, 76, 48);
+    background-color: rgb(203, 13, 108); 
+    color: rgb(231, 209, 209);
+}
